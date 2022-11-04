@@ -13,4 +13,4 @@ import org.junit.runner.RunWith;
 public class FailedTestRunner {
 }
 
-//This runner clas will be running only failed scenarios
+//This runner class will be running only failed scenarios
