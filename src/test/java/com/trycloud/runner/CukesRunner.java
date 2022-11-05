@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources",
         glue = "com/trycloud/step_definitions" ,
         dryRun = false ,
-        tags = ""
+        tags = "@us3"
 
 )
 public class CukesRunner {
