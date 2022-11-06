@@ -1,4 +1,4 @@
-@US13 @Dmytro
+@US13 @regression
 Feature: As a user, I should be able to view the contact list.
   User story: User should see contacts names after clicking contacts module
   Scenario Outline:
