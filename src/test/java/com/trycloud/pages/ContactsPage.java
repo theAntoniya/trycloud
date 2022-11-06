@@ -12,4 +12,7 @@ public class ContactsPage extends BasePage{
     }
 
 
+@FindBy(id = "contactsmenu-menu")
+    public WebElement contactsMenuPopup;
+
 }
