@@ -11,7 +11,5 @@ public class ContactsPage extends BasePage{
         PageFactory.initElements(Driver.getDriver(),this);
     }
 
-    @FindBy(id = "contactsmenu-menu")
-    public WebElement contactsMenuPopup;
 
 }
