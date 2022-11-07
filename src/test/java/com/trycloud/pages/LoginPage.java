@@ -24,6 +24,9 @@ public class LoginPage extends BasePage{
     @FindBy (xpath = "//input[@id='submit-form']")
     public WebElement loginBtn;
 
+    @FindBy(xpath = "//p[@class='warning wrongPasswordMsg']")
+    public WebElement errorMessage;
+
     //Login Method
     public void loginTryCloud(String username,String password){
 
