@@ -1,5 +1,6 @@
 package com.trycloud.pages;
 
+import com.trycloud.utilities.ConfigurationReader;
 import com.trycloud.utilities.Driver;
 import org.joda.time.field.DividedDateTimeField;
 import org.openqa.selenium.Keys;
@@ -28,6 +29,7 @@ public class LoginPage extends BasePage{
 
     //Login Method
     public void loginTryCloud(String username,String password){
+
         usernameInput.sendKeys(username);
         passwordInput.sendKeys(password);
         loginBtn.click();
