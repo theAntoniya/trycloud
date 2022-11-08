@@ -28,8 +28,10 @@ public class Hooks {
 
             scenario.attach(screenshot, "image/png", scenario.getName());
 
+
            }
         Driver.closeDriver();
+
 //        //@Before (value = "@login", order=2)
 //        public void setupForLogin(){
 //            // If you want any code to run before any specific feature/scenario,
