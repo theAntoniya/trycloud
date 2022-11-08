@@ -26,7 +26,6 @@ public class Hooks {
 
             Driver.closeDriver();
         }
-
 //        //@Before (value = "@login", order=2)
 //        public void setupForLogin(){
 //            // If you want any code to run before any specific feature/scenario,
