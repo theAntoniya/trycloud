@@ -60,7 +60,7 @@ public class Driver {
     public static void closeDriver(){
         if(driverPool.get() != null) {
             driverPool.get().quit(); // this line will kill the session. value will noy be null
-            driverPool = null;
+            driverPool.remove();
         }
     }
 
