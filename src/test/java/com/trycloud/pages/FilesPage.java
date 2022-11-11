@@ -29,5 +29,27 @@ public class FilesPage extends BasePage {
     @FindBy (xpath = "(//table[@id='filestable']//tbody[@id='fileList'])[12]//tr")
     public List<WebElement> allDeletedFiles;
 
+    @FindBy ( xpath = "//button[@class='settings-button']")
+    public WebElement settingsBtn;
 
+    @FindBy ( xpath = "(//input[@class='checkbox'])[1]")
+    public WebElement showRichWorkspasesCheckboxFA;
+
+    @FindBy ( xpath = "//input[@id='showRichWorkspacesToggle']/following-sibling::label[@for='showRichWorkspacesToggle']")
+    public WebElement showRichWorkspasesCheckbox;
+
+    @FindBy ( xpath = "(//input[@class='checkbox'])[2]")
+    public WebElement showRecommendationsCheckboxFA;
+
+    @FindBy ( xpath = "//input[@id='recommendationsEnabledToggle']/following-sibling::label[@for='recommendationsEnabledToggle']")
+    public WebElement showRecommendationsCheckbox;
+
+    @FindBy ( xpath = "(//input[@class='checkbox'])[3]")
+    public WebElement showHiddenFilesFA;
+
+    @FindBy ( xpath = "//input[@id='showhiddenfilesToggle']/following-sibling::label[@for='showhiddenfilesToggle']")
+    public WebElement showHiddenFiles;
+
+    @FindBy ( xpath = "//input[@type='file']")
+    public WebElement uploadFileElement;
 }
